@@ -1,0 +1,6 @@
+Angular files: gera os componentes, services, etc
+Angular language service: no html consegue ver as variaveis do TS
+Auto rename tag: qdo muda uma tag, muda automaticamente seu fechamanento
+GitLens: ver quem commitou o que
+Bracket Pair Colorizer: deixar colorido (facilita para ver onde fecha as coisas)
+Material Icon Theme: para deixar os ícones bonitinhos
