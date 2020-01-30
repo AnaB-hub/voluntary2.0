@@ -3,18 +3,18 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-  {
+	{
 		path: '',
 		loadChildren: 'src/app/components/login/login.module#loginModule'
 	},
-  {
+	{
 		path: 'login',
 		loadChildren: 'src/app/components/login/login.module#loginModule'
 	}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+	imports: [RouterModule.forRoot(routes)],
+	exports: [RouterModule]
 })
 export class AppRoutingModule { }
