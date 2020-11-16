@@ -7,9 +7,10 @@ import { ModalModule, TooltipModule, BsDropdownModule } from "ngx-bootstrap";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { MenuPrincipalComponent } from "src/components/menu-principal/menu-principal.component";
+import { RodapeComponent } from "src/components/rodape/rodape.component";
 
 @NgModule({
-  declarations: [AppComponent, MenuPrincipalComponent],
+  declarations: [AppComponent, MenuPrincipalComponent, RodapeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
