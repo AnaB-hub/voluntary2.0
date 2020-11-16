@@ -1,0 +1,7 @@
+* Para usar um componente em outro component:
+importa ele no módulo do component principal
+Ex: 
+@NgModule({
+  imports: [...],
+  declarations: [..., MenuPrincipalComponent],
+})
