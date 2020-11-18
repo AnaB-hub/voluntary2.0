@@ -4,11 +4,11 @@ import { Routes, RouterModule } from "@angular/router";
 const routes: Routes = [
   {
     path: "",
-    loadChildren: "src/components/home/home.module#homeModule",
+    loadChildren: "src/app/components/home/home.module#homeModule",
   },
   {
     path: "login",
-    loadChildren: "src/components/login/login.module#loginModule",
+    loadChildren: "src/app/components/login/login.module#loginModule",
   },
 ];
 
